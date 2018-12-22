@@ -428,7 +428,7 @@ double* ensrf_update(int m, int n, double *xb, double *yb, double y, double r)
     double *xa_prime = (double *)malloc(m * n * sizeof(double));
     double *xa_bar = (double *)malloc(m * sizeof(double));
     double *xa = (double *)malloc(m * n * sizeof(double));
-    int i, j, k;
+    int i, j;
 
     /* Background state mean and deviations. */
     xb_bar = ensemble_mean(m, n, xb);
