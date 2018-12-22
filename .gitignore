@@ -50,3 +50,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Text editors and IDEs
+*.code-workspace
+.vscode/
